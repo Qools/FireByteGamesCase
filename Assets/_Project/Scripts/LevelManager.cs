@@ -16,10 +16,6 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private SaberController redSaber;
     [SerializeField] private SaberController blueSaber;
 
-    [Header("Collision Angles")]
-    [SerializeField] private float minCollisionAngle;
-    [SerializeField] private float maxCollisionAngle;
-
 
     // Update is called once per frame
     void Update() => CheckSabreCollision();
